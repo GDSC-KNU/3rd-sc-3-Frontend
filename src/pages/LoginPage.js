@@ -1,5 +1,10 @@
+import { ReactComponent as Login } from '../assets/images/loginPage.svg';
 const LoginPage = () => {
-    return <div>LoginPage</div>;
+    return (
+    <>
+        <Login />
+    </>
+    );
 };
 
 export default LoginPage;

@@ -1,5 +1,11 @@
+import { ReactComponent as Signup } from '../assets/images/signupPage.svg';
+
 const RegisterationPage = () => {
-    return <div>RegisterationPage</div>;
+    return (
+        <>
+            <Signup />
+        </>
+    );
 };
 
 export default RegisterationPage;

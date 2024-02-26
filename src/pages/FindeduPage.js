@@ -1,5 +1,11 @@
+import { ReactComponent as FindEdu } from '../assets/images/education.svg';
+
 const FindeduPage = () => {
-    return <div>FindeduPage</div>;
+    return (
+        <>
+            <FindEdu />
+        </>
+    );
 };
 
 export default FindeduPage;
